@@ -1,0 +1,111 @@
+<!-- The DOCTYPE is to declare that this is a HTML file-->
+<!DOCTYPE html>
+<html>
+  <!-- The head tag is for importing other files, title and specific meta settings -->
+  <head>
+    <!-- The meta tag is some settings that are essential -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- The link tag is to link a specific file into this HTML file -->
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500"
+      rel="stylesheet"
+    />
+    <!-- The title tag is to specify the title of the webpage -->
+    <title>Jason Beh</title>
+  </head>
+  <body>
+    <!-- The div tag is to create containers that wraps other HTML tags within -->
+    <div class="main">
+      <div class="profile">
+        <!-- The img tag is to link an image file-->
+        <img src="profile.jpg" class="profile-image" />
+        <!-- 
+          The h1 tag is to create main heading tag(used for important words)
+          In HTML, there is h1(largest) - h6(smallest)
+        -->
+        <h1>Jason Beh</h1>
+        <h2>A-Levels (Jan 2019)</h2>
+        <h3>Just a 17 year old coder that hates sushi</h3>
+        <a href="www.jasonbeh.com">www.jasonbeh.com</a>
+      </div>
+      <div class="about-me">
+        <h2 class="about-me-title">About Me</h2>
+        <img src="background-image.jpg" class="background-image" />
+
+        <!-- The p tag is to create a paragraph for long text -->
+        <p class="quote">
+          "Apart from developing software, I may also develop feelings for you."
+          <br />
+          - Jason Beh
+        </p>
+        <p>
+          Based in KL Malaysia, I started coding at the age of 14 in 2016, when
+          my sister dared me to try coding for the first time. Since then, I
+          embarked on an epic journey of my own to build digital products that
+          make people go 'WOAH'.
+        </p>
+        <p>
+          Naturally, I love learning to continuously improve myself, so that
+          this giant playground world of ours is filled with more fun and
+          exciting products!
+        </p>
+        <p>Things I like to do:</p>
+        <!-- 
+          The ol tag is to create a numbered list, eg. 1, 2, 3...
+          The li tag is a list item in the ordered list 
+        -->
+        <ol>
+          <li>Coding</li>
+          <li>Travelling</li>
+          <li>Working out in the gym</li>
+          <li>Sleeping</li>
+          <li>Dota</li>
+          <li>Hanging out with friends</li>
+        </ol>
+        <!-- The hr tag is to create a thin line for content seperation -->
+        <hr />
+        <p>Below is my bucket list and whether if I have accomplished them.</p>
+        <!-- The table tag is to create a table -->
+        <table>
+          <!-- The tr tag is to create a table row -->
+          <tr>
+            <!-- The th tag is to create a table heading -->
+            <th>Goals</th>
+            <th>Accomplished?</th>
+          </tr>
+          <tr>
+            <!-- The td tag is to create a table heading -->
+            <td>20 pullups in a row</td>
+            <td>Nope</td>
+          </tr>
+          <tr>
+            <td>Speak in a conference</td>
+            <td>Nope</td>
+          </tr>
+          <tr>
+            <td>Travel to Maldives</td>
+            <td>Nope</td>
+          </tr>
+          <tr>
+            <td>Get six packs</td>
+            <td>Nope</td>
+          </tr>
+        </table>
+
+        <p>Favourite Song: Payphone by Maroon 5 ft Wiz Khalifa</p>
+
+        <!-- 
+          The audio tag is to link an audio file into your webpage,
+          the source tag is to specify the link to the file
+         -->
+        <audio controls>
+          <source src="fav_song.mp3" />
+        </audio>
+      </div>
+    </div>
+  </body>
+</html>
