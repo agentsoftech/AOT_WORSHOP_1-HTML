@@ -43,4 +43,4 @@ To get the project running:
 
 ### Author
 
-[Jason Beh](www.jasonbeh.com)
+[Jason Beh](https://www.jasonbeh.com)
